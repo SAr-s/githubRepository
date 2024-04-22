@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.filter-button {
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.filter-button:focus {
+  border-color: blue;
+  color: blue;
+}
+.filter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 25px;
+}
